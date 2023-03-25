@@ -14,7 +14,6 @@ else
 fi
 
 # Add some sample code to the file
-echo '#!/bin/bash' >> "$1"
 
 # Give executable permission to the file
 chmod +x "$1"
