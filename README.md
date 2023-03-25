@@ -1,175 +1,60 @@
-# alx-low_level_programming
-## Resources
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)                            
-- [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)                 
-- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
-- [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)           
-- [C Books and PDF's](../references) to check out and use as reference.
+# C is FUN 😊
 
-## Tasks
+>Learning C right now, been wanting to get on this. It's going to be FUN !!.
 
-- All `*-main.c` files will be located in the [main](./main) directory
-- We will be using function prototypes that will be included in our header file called, [main.h](./main.h).
+<p align="center">
+  <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
+</p>
+
+## About
+
+- This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
+- All main.c files are prewritten by the school. We build functions that produce a specific output while also taking into consideration edge cases.
 
 ---
 
-<details>
-<summary><a href="./0-isupper.c">0. isupper</a></summary><br>
+- C is fun but its not that easy, so I have some [notes](./notes.md) that will actually show you the journey and thought process.
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/MTRnHM0y/image.png' border='0' alt='image'/></a>
+## Resource
 
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/0-main.c 0-isupper.c -o 0-isuper`
+- C [Books and PDF's](./references) to check out and use as a reference.
 
-</details>
+---
 
-<details>
-<summary><a href="./1-isdigit.c">1. isdigit</a></summary><br>
+- [0x00](./0x00-hello_world) : Hello, World.
+- [0x01](./0x01-variables_if_else_while) : Variables,if,else,while.
+- [0x02](./0x02-functions_nested_loops) : Functions, nested loops.
+- [0x03](./0x03-debugging) : Debugging.
+- [0x04](./0x04-more_functions_nested_loops) : More Functions and nested loops.
+- [0x05](./0x05-pointers_arrays_strings) : Pointers, arrays and strings.
+- [0x06](./0x06-pointers_arrays_strings) : More pointers, arrays and strings.
+- [0x07](./0x07-pointers_arrays_strings) : Even more pointers, arrays and strings.
+- [0x08](./0x08-recursion) : Recursion.
+- [0x09](./0x09-static_libraries) : Static libraries.
+- [0x0A](./0x0A-argc_argv) : argc, argv[].
+- [0x0B](./0x0B-malloc_free) : Malloc, free.
+- [0x0C](./0x0C-more_malloc_free) : More malloc, free.
+- [0x0D](./0x0D-preprocessor) : Preprocessor.
+- [0x0E](./0x0E-structures_typedef) : Structures, typedef.
+- [0x0F](./0x0F-function_pointers) : Function pointers.
+- [0x10](./0x10-variadic_functions) : Variadic functions.
+- [0x11](https://github.com/iAmG-r00t/printf) : Write our own printf project.
+- [0x12](./0x12-singly_linked_lists) : Singly linked lists.
+- [0x13](./0x13-more_singly_linked_lists) : More singly linked lists.
+- [0x14](./0x14-bit_manipulation) : Bit manipulation.
+- [0x15](./0x15-file_io) : File I/O.
+- [0x1C](./0x1C-makefiles) : Makefiles.
+- [0x1D](https://github.com/iAmG-r00t/binary_trees) : Binary trees.
+- [0x1E](./0x1E-search_algorithms) : Search Algorithms.
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/j55s6LRD/image.png' border='0' alt='image'/></a>
+---
 
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/1-main.c 1-isdigit.c -o 1-isdigit`
+# More Resources
 
-</details>
-
-<details>
-<summary><a href="./2-mul.c">2. Collaboration is multiplication</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3xjgwqBL/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/2-main.c 2-mul.c -o 2-mul`
-
-</details>
-
-<details>
-<summary><a href="./3-print_numbers.c">3. The numbers speak for themselves</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/YS1KbZgB/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/3-main.c 3-print_numbers.c -o 3-print_numbers`
-
-</details>
-
-<details>
-<summary><a href="./4-print_most_numbers.c">4. I believe in numbers and signs</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wvbd08zq/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/4-main.c 4-print_most_numbers.c -o 4-print_most_numbers`
-
-</details>
-
-<details>
-<summary><a href="./5-more_numbers.c">5. Numbers constitute the only universal language</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7hk25mJN/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/5-main.c 5-more_numbers.c -o 5-more_numbers`
-
-</details>
-
-<details>
-<summary><a href="./6-print_line.c">6. The shortest distance between two points is a straight line</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/jjk5JvhG/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/6-main.c 6-print_line.c -o 6-lines`
-
-</details>
-
-<details>
-<summary><a href="./7-print_diagonal.c">7. I feel like I am diagonally parked in a parallel universe</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/BbyZjvcH/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/7-main.c 7-print_diagonal.c -o 7-diagonals`
-
-</details>
-
-<details>
-<summary><a href="./8-print_square.c">8. You are so much sunshine in every square inch</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/N0PZV7CC/image.png' border='0' alt='image'/></a>
-
-- Below is the assembly code of the program with comments.
-
-```asm
-   <main>:       endbr64
-   <main+4>:     push   rbp						; store base pointer addr on top of the stack
-   <main+5>:     mov    rbp,rsp						; make the stack pntr addr to be the new base pntr addr
-   <main+8>:     mov    edi,0x2						; moves 2 so as to be passed in the function
-   <main+13>:    call   0x55555555519f <print_square>			; calls print_square function
-   <main+18>:    mov    edi,0xa						; moves 10 so as to be passed in the function
-   <main+23>:    call   0x55555555519f <print_square>			; calls print_square function
-   <main+28>:    mov    edi,0x0						; moves 0 so as to be passed in the function
-   <main+33>:    call   0x55555555519f <print_square>			; calls print_square function
-   <main+38>:    mov    eax,0x0						; clears eax [rax]
-   <main+43>:    pop    rbp						; get's back the address of the base pointer [rbp]
-   <main+44>:    ret
-   <print_square>:       endbr64
-   <print_square+4>:     push   rbp					; store base pntr addr on top of the stack
-   <print_square+5>:     mov    rbp,rsp					; make the stack pntr addr to be the new base pntr addr
-   <print_square+8>:     sub    rsp,0x20				; allocate 20 bytes on the stack
-   <print_square+12>:    mov    DWORD PTR [rbp-0x14],edi		; argument value being stored in the stack [rbp-ox14]
-   <print_square+15>:    mov    DWORD PTR [rbp-0x8],0x1                 ; first loop, moves 0x1 to the stack [rbp-0x8]
-   <print_square+22>:    jmp    0x5555555551e4 <print_square+69>	; jump to [1]
-   <print_square+24>:    mov    DWORD PTR [rbp-0x4],0x1			; [2] second loop, moves 0x1 to the stack [rbp-0x4]
-   <print_square+31>:    jmp    0x5555555551ce <print_square+47>	; jump to [3]
-   <print_square+33>:    mov    edi,0x23				; [4] moves character '#' in hex 0x23 to edi arg1
-   <print_square+38>:    call   0x555555555149 <_putchar>		; prints the character with _putchar function
-   <print_square+43>:    add    DWORD PTR [rbp-0x4],0x1			; increament [rbp-0x4] by 1
-   <print_square+47>:    mov    eax,DWORD PTR [rbp-0x4]			; [3] mov value stored at [rbp-0x4] to eax
-   <print_square+50>:    cmp    eax,DWORD PTR [rbp-0x14]		; compare value at eax with value stored in [rbp-0x14]
-   <print_square+53>:    jle    0x5555555551c0 <print_square+33>	; if less or equal jump to [4]
-   <print_square+55>:    mov    edi,0xa					; moves character '\n' in hex 0xa to edi arg1
-   <print_square+60>:    call   0x555555555149 <_putchar>		; prints the character with _putchar function
-   <print_square+65>:    add    DWORD PTR [rbp-0x8],0x1			; increament [rbp-0x8] by 1
-   <print_square+69>:    mov    eax,DWORD PTR [rbp-0x8]			; [1] mov value stored at [rbp-0x8] to eax
-   <print_square+72>:    cmp    eax,DWORD PTR [rbp-0x14]		; compare value at eax with value in [rbp-0x14]
-   <print_square+75>:    jle    0x5555555551b7 <print_square+24>	; if less or equal jump to [2]
-   <print_square+77>:    nop						; nop sled
-   <print_square+78>:    nop						; nop sled
-   <print_square+79>:    leave						; leave function
-   <print_square+80>:    ret						; return to main function
-```
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/8-main.c 8-print_square.c -o 8-squares`
-
-</details>
-
-<details>
-<summary><a href="./9-fizz_buzz.c">9. Fizz Buzz</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wv5WcXNG/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-fizz_buzz.c -o 9-fizz_buzz`
-
-</details>
-
-<details>
-<summary><a href="./10-print_triangle.c">10. Triangles</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/SQc0q30s/image.png' border='0' alt='image'/></a>
-<a href='https://postimg.cc/QBsJxtBG' target='_blank'><img src='https://i.postimg.cc/8CfK4fN5/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/10-main.c 10-print_triangle.c -o 10-triangles`
-
-</details>
-
-<details>
-<summary><a href="./100-prime_factor.c">11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/0yLYxXWC/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm`
-
-</details>
-
-<details>
-<summary><a href="./101-print_number.c">12. Numbers have life; they're not just symbols on paper</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/kgKjrr4R/image.png' border='0' alt='image'/></a>
-
-- Compile this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c main/101-main.c 101-print_number.c -o 101-print_numbers`
-
-</details>
+- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
+- [Data Structures](./DataStructures) : Code snippets and notes on data structures.
+- [Dynamic Memory Allocation](./dynamic_memory_alloc) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
+- [Heap vs Stack](./heap_stack) : Code snippets and notes on what is a heap, a stack and how they work.
+- [Simple Shell Concepts](./simple_shell_concepts) : Code snippets and notes on the concept for the simple shell project.
