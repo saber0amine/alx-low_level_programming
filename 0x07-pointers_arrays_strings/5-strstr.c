@@ -1,4 +1,4 @@
-i/**
+/**
  * _strstr - a function that locates a substring
  *
  * @haystack: input string to search for matching
