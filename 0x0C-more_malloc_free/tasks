@@ -1,0 +1,13 @@
+#!/bin/bash
+
+while true; do
+    read -p "Enter file name (or 'exit' to quit): " file_name
+    if [ "$file_name" == "exit" ]; then
+        break
+    fi
+    
+    vim  "$file_name"
+    
+    chmod u+x "$file_name"
+    echo "$file_name created and made executable."
+done
