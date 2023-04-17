@@ -3,7 +3,9 @@
 # C is FUN 😊
 
 >Learning C right now, been wanting to get on this. It's going to be FUN !!.
-
+<p align="center">
+  <img src="https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif" />
+</p>
 <p align="center">
   <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
 </p>
