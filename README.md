@@ -3,13 +3,13 @@
 # C is FUN 😊
 
 >Learning C right now, been wanting to get on this. It's going to be FUN !!.
-
-<p align="center">
-  <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
-</p>
 <p align="center">
   <img src="https://media.giphy.com/media/gU25raLP4pUu4/giphy.gif" />
 </p>
+<p align="center">
+  <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
+</p>
+
 ## About
 
 - This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
