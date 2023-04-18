@@ -1,5 +1,5 @@
-#ifndef _FUNCTION_LIKE_MACRO_H
-#define _FUNCTION_LIKE_MACRO_H
+#ifndef _PI_H
+#define _PI.H
 
 #define PI 3.14159265359
 
