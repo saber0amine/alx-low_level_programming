@@ -5,7 +5,6 @@ Function pointers are variables that hold the memory address of a function. They
 To declare a function pointer, you use the following syntax:
 
 ```
-scssCopy code
 return_type (*ptr_name)(arguments);
 
 ```
@@ -14,7 +13,7 @@ where **`return_type`** is the return type of the function, **`ptr_name`** is th
 
 For example, the following code declares a function pointer named **`pfunc`** that takes an integer argument and returns an integer:
 
-`''''
+```
 int (*pfunc)(int);
 
 ```
@@ -34,7 +33,7 @@ In this example, **`pfunc`** is assigned the address of the **`add`** function.
 
 You can call a function through a function pointer by using the dereference operator **`*`**:
 
-''''
+```
 int result = (*pfunc)(3, 4);
 
 ```
