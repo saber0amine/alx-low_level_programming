@@ -1,4 +1,4 @@
-#Linked List in C
+/Linked List in C
 This repository contains an implementation of a Linked List in C. Linked List is a data structure consisting of a group of nodes that represent a sequence together. Each node contains a piece of data and a reference to the next node in the sequence.
 
 ##Installation
