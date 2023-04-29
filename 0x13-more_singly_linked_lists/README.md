@@ -1,10 +1,10 @@
-/Linked List in C
+# Linked List in C
 This repository contains an implementation of a Linked List in C. Linked List is a data structure consisting of a group of nodes that represent a sequence together. Each node contains a piece of data and a reference to the next node in the sequence.
 
-##Installation
+## Installation
 To use the Linked List implementation in your C program, you need to include the linked_list.h header file in your code and compile the linked_list.c source file along with your program.
 
-##Usage
+## Usage
 To create a new Linked List, you first need to create a new LinkedList object using the create_linked_list()
 
 LinkedList* linked_list = create_linked_list();
@@ -48,5 +48,5 @@ int main() {
 
     return 0;
 }
-###License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
