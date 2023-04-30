@@ -2,7 +2,7 @@
 
 /**
  * free_listint - function that frees a listint_t list.
- * @tmp:a current node to track all the list.
+ * @*tmp:a current node to track all the list.
  * @head: header of the list.
  */
 
