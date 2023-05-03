@@ -1,47 +1,49 @@
-#include "lists.h"
-#include <stdlib.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include"lists.h"
 
 /**
- * print_listint_safe - function that prints a listint_t linked list
- * @head: pointer to the beginning of linked list
+ * print_listint_safe - prints a linked list with a loop
+ * @head: head of the list
  * Return: the number of nodes in the list
- */
-
+*/
 size_t print_listint_safe(const listint_t *head)
 {
-	int i, flag = 0;
-	listint_t *slow, *fast;
+	listint_t *fast, *slow;
+	size_t count = 0;
 
-	if (!head)
+	if (head == NULL)
 		exit(98);
-	for (i = 1; (*head).next && !flag; head = (*head).next, i++)
+	fast = slow = (listint_t *)head;
+	while (slow && fast && fast->next)
 	{
-		if ((*head).next)
-			slow = (*head).next;
-		if ((*head).next->next)
-			fast = (*head).next->next;
+		printf("[%p] %d\n", (void *)slow, slow->n);
+		slow = slow->next;
+		fast = fast->next->next;
+		count++;
+		if (fast == slow)
+			break;
+	}
+	if (fast == slow)
+	{
+		slow = (listint_t *)head;
 		while (slow != fast)
 		{
-			if (slow)
-				slow = (*slow).next;
-			if (fast == head)
-				flag = 1;
-			if (fast && !flag)
-				fast = (*fast).next;
-			if (fast == head)
-				flag = 1;
-			if (fast && !flag)
-				fast = (*fast).next;
-			if (fast == head)
-				flag = 1;
+			printf("[%p] %d\n", (void *)fast, fast->n);
+			slow = slow->next;
+			fast = fast->next;
+			count++;
 		}
-		printf("[%p] %d\n", (void *)head, (*head).n);
+		printf("-> [%p] %d\n", (void *)slow, slow->n);
 	}
-
-	for (; flag && (*head).next != fast; i++, head = (*head).next)
-		printf("[%p] %d\n", (void *)head, (*head).n);
-	printf("[%p] %d\n", (void *)head, (*head).n);
-	if (fast)
-		printf("-> [%p] %d\n", (void *)fast, (*fast).n);
-	return (i);
+	else
+	{
+		while (slow)
+		{
+			printf("[%p] %d\n", (void *)slow, slow->n);
+			count++;
+			slow = slow->next;
+		}
+	}
+	return (count);
 }
