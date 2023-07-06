@@ -1,27 +1,16 @@
 #include "lists.h"
 /**
- * add_nodeint_end - check the code
+ * free_listint - check the code
  * @head: a
- * @n: a
  * Return: Always 0.
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+void free_listint(listint_t *head)
 {
-listint_t *new, *nav = *head;
-if (head == NULL)
-return (NULL);
-new = malloc(sizeof(listint_t));
-if (new == NULL)
-return (NULL);
-new->n = n;
-new->next = NULL;
-if (!nav)
-*head = new;
-else
+listint_t *nav = head, *nav2;
+while (nav)
 {
-while (nav->next)
-nav = nav->next;
-nav->next = new;
+nav2 = nav->next;
+free(nav);
+nav = nav2;
 }
-return (new);
 }
